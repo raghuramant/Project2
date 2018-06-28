@@ -23,4 +23,16 @@ public class TestCaseOne {
 	void add(int a, int b) {
 		System.out.println(a + b);
 	}
+	
+	public void reverseByMurali() {
+
+		String s = "Murali";
+		String split = "";
+
+		for (int i = s.length()- 1; i >= 0; i--) {
+			char ch = s.charAt(i);
+			split = split + ch;
+		}
+		System.out.println(split);
+	}
 }
