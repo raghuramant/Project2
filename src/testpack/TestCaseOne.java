@@ -4,8 +4,12 @@ public class TestCaseOne {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		TestCaseOne objuser2 = new TestCaseOne();
-		objuser2.add(4, 5, 6);
+		//TestCaseOne objuser2 = new TestCaseOne();
+		
+		TestCaseOne objuser1 = new TestCaseOne();
+		objuser1.add(4, 5);
+		objuser1.add(4, 5, 6);
+
 	}
 
 	void thisismytestcaseone() {
@@ -14,5 +18,9 @@ public class TestCaseOne {
 
 	void add(int a, int b, int c) {
 		System.out.println(a + b + c);
+	}
+
+	void add(int a, int b) {
+		System.out.println(a + b);
 	}
 }
