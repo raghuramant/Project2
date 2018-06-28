@@ -1,0 +1,62 @@
+
+
+One time configuration
+------------------------------------------------
+register in github and install git bash
+
+set ur username
+set ur emailadress
+
+------------------------------------------------
+
+to share a project
+------------------------------------------------
+
+1. create a project in IDE (eclipse)
+
+2. create a repository in remote (get the url)
+
+3. link your remote and local (git remote add origin 'url')
+
+4. add commit and push (git add.
+git commit -m "commit message"
+git push -u origin branch name)
+
+add your team members as collabarators
+--------------------------------------------------------------------
+
+
+to work with a project already shared
+----------------------------------------------------------------
+
+1. get the url of the remote
+2. clone the project to your local
+git clone url (link is established by default)
+3.import the project into ur IDE(eclipse)
+4. create a branch for you and start working on it
+---------------------------------------------------------------
+On a daily basis till you complete the work
+
+1. add commit and push your code to remote (your branch)
+
+
+0nce your work is 100% done
+
+1. add commit and push your code to remote (your branch)
+2. pull the code from master to your branch and resolve the conflicts
+3. rasise the pull request
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
