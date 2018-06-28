@@ -14,7 +14,6 @@ public class TestCaseOne {
 	
 	public void findCountWordList(String content) {
 		
-		int NoOfcount=0;
 		String[] word = content.split(" ");
 		List<String> asList = Arrays.asList(word);
 		Map<String,Integer> m=new HashMap<String,Integer>();
