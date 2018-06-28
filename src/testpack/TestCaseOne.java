@@ -9,6 +9,8 @@ public class TestCaseOne {
 		TestCaseOne objuser1 = new TestCaseOne();
 		objuser1.add(4, 5);
 		objuser1.add(4, 5, 6);
+		objuser1.reverseByVino();
+		
 
 	}
 
@@ -23,4 +25,13 @@ public class TestCaseOne {
 	void add(int a, int b) {
 		System.out.println(a + b);
 	}
+	public void reverseByVino() {
+		String name="vino";
+		String res="";
+		for (int i = name.length()-1; i >=0; i--) {
+			res=res+name.charAt(i);
+		}
+		System.out.println(res);
+
+}
 }
